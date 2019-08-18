@@ -1,0 +1,19 @@
+Línea 9: Se asignó a un boolean un valor entero. Cambié el boolean por un byte.
+
+Línea 10: Se le asignó a un byte un valor fuera de su rango. Cambie el byte por un short.
+
+Línea 11: Se le asignó a un short un valor fuera de su rango. Cambié el short por un int.
+
+Línea 14: Variable "Discriminante" no existe. Cambié la variable "Discriminante" por "discriminante" la cual sí existe.
+
+Línea 14: Long era un tipo de dato incompatible. Cambié Long por double
+
+Línea 17: Char es un tipo de dato inexistente. Cambié Char por char.
+
+Línea 18: No había un carácter definido como "ch". Cambié ch por ch1 el cuál sí está definido.
+
+Línea 18: EL carácter estaba entre comillas. Puse el carácter entre apostrofes o comilla simple.
+
+Línea 7: Las variables no se están definiendo. Pase las definiciones de las variables a la línea 6.
+
+Línea 18: La suma a-3 es igual a 0. Cambié el -3 por un -2
