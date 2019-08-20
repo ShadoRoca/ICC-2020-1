@@ -1,0 +1,21 @@
+
+PrePost.java
+Explicación de por qué 17 se imprime dos veces.
+
+El número 17 se imprime dos veces en pantalla porque cuando el autodecremento se encuentra a la derecha de la variable (post-decremento) en la línea 10
+System.out.println(x--);
+sólo se toma el valor original de la variable (que en este caso es el de la línea 9 y es 17) para evaluar la expresión y después (en la línea 11) decrementar la variable. Como su valor original es 17, entonces aparece 17 nuevamente.
+
+
+Operadores.java
+Explicación del resultado
+
+dividendoEntero / divisor = 7
+
+Este resultado se debe a que el tipo de dato primitivo de dividendoEntero es int, el cuál es para valores enteros, dado que el resultado de la división es un número real (es decir, tiene decimales) el programa le corta esos decimales y sólo da la parte entera del resultado el cual es 7.
+
+dividendoReal / divisor = 7.8
+
+A diferencia del caso anterior, el tipo de dato primitivo de dividendoReal es double, que es para valores reales, es por esto que el resultado sale con su parte decimal.
+
+
