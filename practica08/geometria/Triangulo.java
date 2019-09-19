@@ -71,6 +71,31 @@ public class Triangulo {
 	    return ESCALENO;
 	}
     }
+
+    /**
+     *Regresa el punto a del triangulo
+     *@return El punto a
+     */
+
+    public Punto getA(){
+	return a;
+    }
+
+    /**
+     *Regresa el punto b del triangulo
+     *@return EL punto b
+     */
+    public Punto getB(){
+	return b;
+    }
+
+    /**
+     *Regresa el punto c del triangulo
+     *@return El punto c
+     */
+    public Punto getC(){
+	return c;
+    }
 }
 	
     
